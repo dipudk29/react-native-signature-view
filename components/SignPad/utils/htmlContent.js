@@ -34,7 +34,7 @@ const content = script =>
       background-color: #fff;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
     }
-    
+
     .m-signature-pad:before, .m-signature-pad:after {
       position: absolute;
       z-index: -1;
@@ -67,10 +67,10 @@ const content = script =>
       left: 20px;
       right: 20px;
       top: 20px;
-      bottom: 60px;
+      bottom: 20px;
       border: 1px solid #f4f4f4;
     }
-    
+
     .m-signature-pad--body
       canvas {
         position: absolute;
@@ -93,9 +93,6 @@ const content = script =>
         min-width: 250px;
         min-height: 140px;
         margin: 0;
-      }
-      #github {
-        display: none;
       }
     }
     

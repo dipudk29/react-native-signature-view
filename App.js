@@ -90,12 +90,12 @@ const styles = StyleSheet.create({
   btnGrp: {
     flex: 1,
     flexDirection: "row",
-    // alignContent: "flex-end"
-    // alignItems: "flex-start",
-    justifyContent: "space-between"
+    margin: 5,
+    justifyContent: "space-around"
   },
   btn: {
-    width: "50%",
+    margin: 5,
+    height: "10",
     flexDirection: "row",
   }
 })

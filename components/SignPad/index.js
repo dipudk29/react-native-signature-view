@@ -103,8 +103,6 @@ const styles = StyleSheet.create({
   },
   webView: {},
   webBg: {
-    width: '100%',
-    backgroundColor: '#FFF',
     flex: 1
   }
 });
